@@ -1,0 +1,78 @@
+/*DOCUMENTO CSS*/
+
+body {
+     margin:0;
+     padding:10px;
+     border:0;
+     font-family: sans-serif;
+ 	background-image: url(Imagens/fundo.jpg);
+ 	background-size: cover;
+ 	text-align: center;
+}
+
+
+header {
+	background-color: whitesmoke ;
+	height: 100px;
+	padding-top: 25px;
+	color:darkblue ;
+	text-align: center;
+}	
+main {
+	margin:0;
+	padding:0;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px ;
+    flex-wrap: wrap;
+    align-content: center;
+    
+
+}
+
+.box{width: 300px;
+	height:450px;
+	padding:10;
+	text-align: center ;
+	color:black ;
+	margin:0 30px 40px 30px ;
+border-radius: 10px;
+
+}
+
+
+.box:hover{box-shadow: 9px 9px 9px;
+background-color:a4a4a4 ;
+
+}
+
+ box h2 {margin:10px 10px 10px 10px; 
+  padding: 0s;
+} 
+.box figure {width: 250px; 
+height: 250px;  
+margin: 0px 20px 0px 20px; 
+padding: 0px; 
+background-color: ;
+
+}
+.box p {
+	color: whitesmoke;
+
+
+
+} 
+.box img{
+	border-radius: 10px;
+
+
+
+
+}
+footer { 
+   background-color: #ffffffaa; 
+   height: 50px; 
+    padding-top: 30px; color: darkred; 
+   text-align: center; }
+
+
